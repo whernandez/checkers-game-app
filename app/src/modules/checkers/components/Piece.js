@@ -15,7 +15,7 @@ const Piece = ({ piece, onClick }) => {
           : classes.white
       )}
     >
-      {piece.isKing ? "K" : piece.index}
+      {piece.isKing ? "K" : ""}
     </span>
   );
 };
